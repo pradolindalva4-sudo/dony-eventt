@@ -1,0 +1,17 @@
+{
+  "name": "Dony Produções Eventos",
+  "short_name": "Dony Event",
+  "description": "JDP System v24.0 - Gestão de Eventos",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00ffcc",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/vzNfVfM/dony-logo.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpg",
+      "purpose": "any maskable"
+    }
+  ]
+}
