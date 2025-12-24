@@ -1,0 +1,296 @@
+Date/Time:       2025-12-24 18:40:13 
+Command line:    /data/data/com.termux/files/usr/bin/briefcase package android
+
+OS Release:      Linux 4.19.191-27193134-abA037MUBSBCYE2
+OS Version:      #1 SMP PREEMPT Sat May 17 00:06:28 KST 2025
+Architecture:    aarch64
+Platform:        Linux-4.19.191-27193134-abA037MUBSBCYE2-aarch64-with-libc
+
+Python exe:      /data/data/com.termux/files/usr/bin/python3.12
+Python version:  3.12.12 (main, Oct 18 2025, 05:45:20) [Clang 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.26
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+	ANDROID_ART_ROOT=/apex/com.android.art
+	ANDROID_DATA=/data
+	ANDROID_HOME=/data/data/com.termux/files/home/android-sdk
+	ANDROID_I18N_ROOT=/apex/com.android.i18n
+	ANDROID_ROOT=/system
+	ANDROID_TZDATA_ROOT=/apex/com.android.tzdata
+	ANDROID__BUILD_VERSION_SDK=33
+	BOOTCLASSPATH=/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/knoxsdk.jar:/system/framework/SmpsManager.jar:/system/framework/uibc_java.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.btservices/javalib/framework-bluetooth.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.wifi/javalib/framework-wifi.jar:/apex/com.samsung.android.ipm/javalib/framework-samsung-ipm.jar:/apex/com.samsung.android.shell/javalib/framework-samsung-privilege.jar
+	COLORTERM=truecolor
+	DEX2OATBOOTCLASSPATH=/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/knoxsdk.jar:/system/framework/SmpsManager.jar:/system/framework/uibc_java.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar
+	EXTERNAL_STORAGE=/sdcard
+	HISTCONTROL=ignoreboth
+	HOME=/data/data/com.termux/files/home
+	JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk
+	LANG=en_US.UTF-8
+	LD_PRELOAD=/data/data/com.termux/files/usr/lib/libtermux-exec-ld-preload.so
+	OLDPWD=/storage/emulated/0/nova pasta
+	PATH=/data/data/com.termux/files/usr/bin
+	PREFIX=/data/data/com.termux/files/usr
+	PWD=/storage/emulated/0/nova pasta/jdp_producoes_event
+	SHELL=/data/data/com.termux/files/usr/bin/bash
+	SHLVL=1
+	TERM=xterm-256color
+	TERMUX_APK_RELEASE=F_DROID
+	TERMUX_APP_PID=16656
+	TERMUX_APP__DATA_DIR=/data/user/0/com.termux
+	TERMUX_APP__LEGACY_DATA_DIR=/data/data/com.termux
+	TERMUX_APP__SE_FILE_CONTEXT=u:object_r:app_data_file:s0:c39,c257,c512,c768
+	TERMUX_APP__SE_INFO=default:targetSdkVersion=28:complete
+	TERMUX_IS_DEBUGGABLE_BUILD=0
+	TERMUX_MAIN_PACKAGE_FORMAT=debian
+	TERMUX_VERSION=0.118.3
+	TERMUX__HOME=/data/data/com.termux/files/home
+	TERMUX__PREFIX=/data/data/com.termux/files/usr
+	TERMUX__ROOTFS_DIR=/data/data/com.termux/files
+	TERMUX__SE_PROCESS_CONTEXT=u:r:untrusted_app_27:s0:c39,c257,c512,c768
+	TMPDIR=/data/data/com.termux/files/usr/tmp
+	_=/data/data/com.termux/files/usr/bin/briefcase
+
+pyproject.toml:
+[tool.briefcase]
+project_name = "Dony Produções Eventos"
+bundle = "com.jdp"
+version = "24.0"
+display_name = "DonyEvent"
+formal_name = "Dony Produções Eventos"
+description = "Sistema de Gestão JDP System"
+license = "BSD-3-Clause"
+
+[tool.briefcase.app.DonyEvent]
+formal_name = "Dony Produções Eventos"
+description = "Sistema JDP"
+sources = ["src/DonyEvent"]
+
+[tool.briefcase.app.DonyEvent.macOS]
+universal_architectures = ["x86_64", "arm64"]
+
+[tool.briefcase.app.DonyEvent.linux]
+[tool.briefcase.app.DonyEvent.windows]
+[tool.briefcase.app.DonyEvent.android]
+build_gradle_dependencies = ["androidx.appcompat:appcompat:1.6.1"]
+
+Briefcase Log:
+[18:40:08]                                                                                                                                                             config.py:792
+           *************************************************************************                                                                                   config.py:792
+           ** WARNING: License Definition for the Project is Deprecated           **                                                                                   config.py:792
+           *************************************************************************                                                                                   config.py:792
+                                                                                                                                                                       config.py:792
+               Briefcase now uses PEP 621 format for license definitions.                                                                                              config.py:792
+                                                                                                                                                                       config.py:792
+               Previously, the name of the license was assigned to the 'license'                                                                                       config.py:792
+               field in pyproject.toml. For PEP 621, the name of the license is                                                                                        config.py:792
+               assigned to 'license.text' or the name of the file containing the                                                                                       config.py:792
+               license is assigned to 'license.file'.                                                                                                                  config.py:792
+                                                                                                                                                                       config.py:792
+               The current configuration for the Project has a 'license' field                                                                                         config.py:792
+               that is specified as a string:                                                                                                                          config.py:792
+                                                                                                                                                                       config.py:792
+                   license = "BSD-3-Clause"                                                                                                                            config.py:792
+                                                                                                                                                                       config.py:792
+               To use the PEP 621 format (and to remove this warning), specify that                                                                                    config.py:792
+               the LICENSE file contains the license for the Project:                                                                                                  config.py:792
+                                                                                                                                                                       config.py:792
+                   license.file = "LICENSE"                                                                                                                            config.py:792
+                                                                                                                                                                       config.py:792
+           *************************************************************************                                                                                   config.py:792
+                                                                                                                                                                         java.py:111
+           [Java JDK] Evaluating JAVA_HOME...                                                                                                                            java.py:111
+           JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk                                                                                             java.py:112
+                                                                                                                                                                   subprocess.py:839
+           >>> Running Command:                                                                                                                                    subprocess.py:839
+           >>>     /data/data/com.termux/files/usr/lib/jvm/java-17-openjdk/bin/javac -version                                                                      subprocess.py:839
+           >>> Working Directory:                                                                                                                                  subprocess.py:839
+           >>>     /storage/emulated/0/nova pasta/jdp_producoes_event                                                                                              subprocess.py:839
+[18:40:10] >>> Command Output:                                                                                                                                     subprocess.py:839
+           >>>     javac 17.0.17                                                                                                                                   subprocess.py:839
+           >>> Return code: 0                                                                                                                                      subprocess.py:839
+                                                                                                                                                                   subprocess.py:839
+           Using JDK at /data/data/com.termux/files/usr/lib/jvm/java-17-openjdk                                                                                          java.py:263
+                                                                                                                                                                  android_sdk.py:271
+           [Android SDK] Evaluating ANDROID_HOME...                                                                                                               android_sdk.py:271
+           ANDROID_HOME=/data/data/com.termux/files/home/android-sdk                                                                                              android_sdk.py:272
+                                                                                                                                                                  android_sdk.py:321
+           *************************************************************************                                                                              android_sdk.py:321
+           ** WARNING: ANDROID_HOME does not point to an Android SDK              **                                                                              android_sdk.py:321
+           *************************************************************************                                                                              android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:321
+               The location pointed to by the ANDROID_HOME environment                                                                                            android_sdk.py:321
+               variable:                                                                                                                                          android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:321
+               /data/data/com.termux/files/home/android-sdk                                                                                                       android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:321
+               doesn't appear to contain an Android SDK with the Command-line Tools installed.                                                                    android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:321
+               If ANDROID_HOME is an Android SDK, ensure it is the root directory                                                                                 android_sdk.py:321
+               of the Android SDK instance such that                                                                                                              android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:321
+               $ANDROID_HOME/cmdline-tools/19.0/bin/sdkmanager                                                                                                    android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:321
+               is a valid filepath.                                                                                                                               android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:321
+               Briefcase will proceed using its own SDK instance.                                                                                                 android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:321
+           *************************************************************************                                                                              android_sdk.py:321
+                                                                                                                                                                  android_sdk.py:362
+           [android_sdk] The Android SDK was not found; downloading and installing...                                                                             android_sdk.py:362
+           To use an existing Android SDK instance, specify its root directory path in the ANDROID_HOME environment variable.                                     android_sdk.py:366
+                                                                                                                                                                  android_sdk.py:370
+                                                                                                                                                                      __main__.py:42
+           Briefcase cannot install Android SDK on this machine.                                                                                                      __main__.py:43
+                                                                                                                                                                      __main__.py:43
+           Install Android SDK manually and specify the installation directory in the ANDROID_HOME environment variable.                                              __main__.py:43
+           Saving log... started                                                                                                                                      console.py:443
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/__main__.py:27 in main                                                                                    │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                          │
+│ │       command = <briefcase.platforms.android.gradle.GradlePackageCommand object at 0x76351bc320>    │                                                                          │
+│ │       console = <briefcase.console.Console object at 0x7636574890>                                  │                                                                          │
+│ │             e = IncompatibleToolError()                                                             │                                                                          │
+│ │ extra_cmdline = []                                                                                  │                                                                          │
+│ │       options = {'update': False, 'packaging_format': 'aab', 'adhoc_sign': False, 'identity': None} │                                                                          │
+│ │     overrides = {}                                                                                  │                                                                          │
+│ │        result = 200                                                                                 │                                                                          │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                          │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/package.py:188 in __call__                                                                       │
+│                                                                                                                                                                                  │
+│   185 │   ) -> dict | None:                                                                                                                                                      │
+│   186 │   │   # Confirm host compatibility, that all required tools are available,                                                                                               │
+│   187 │   │   # and that the app configuration is finalized.                                                                                                                     │
+│ ❱ 188 │   │   self.finalize(app)                                                                                                                                                 │
+│   189 │   │                                                                                                                                                                      │
+│   190 │   │   if app_name:                                                                                                                                                       │
+│   191 │   │   │   try:                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                  │
+│ │      app = None                                                                             │                                                                                  │
+│ │ app_name = None                                                                             │                                                                                  │
+│ │  options = {'packaging_format': 'aab', 'adhoc_sign': False, 'identity': None}               │                                                                                  │
+│ │     self = <briefcase.platforms.android.gradle.GradlePackageCommand object at 0x76351bc320> │                                                                                  │
+│ │   update = False                                                                            │                                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                  │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/base.py:719 in finalize                                                                          │
+│                                                                                                                                                                                  │
+│    716 │   │   :param debugger_port: The port to use for the debugger                                                                                                            │
+│    717 │   │   """                                                                                                                                                               │
+│    718 │   │   self.verify_host()                                                                                                                                                │
+│ ❱  719 │   │   self.verify_tools()                                                                                                                                               │
+│    720 │   │                                                                                                                                                                     │
+│    721 │   │   apps = self.apps.values() if app is None else [app]                                                                                                               │
+│    722 │   │   for app in apps:                                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                             │
+│ │           app = None                                                                             │                                                                             │
+│ │      debugger = None                                                                             │                                                                             │
+│ │ debugger_host = None                                                                             │                                                                             │
+│ │ debugger_port = None                                                                             │                                                                             │
+│ │          self = <briefcase.platforms.android.gradle.GradlePackageCommand object at 0x76351bc320> │                                                                             │
+│ │     test_mode = False                                                                            │                                                                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                             │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/platforms/android/gradle.py:148 in verify_tools                                                           │
+│                                                                                                                                                                                  │
+│   145 │   │   """Verify that the Android APK tools in `briefcase` will operate on this system,                                                                                   │
+│   146 │   │   downloading tools as needed."""                                                                                                                                    │
+│   147 │   │   super().verify_tools()                                                                                                                                             │
+│ ❱ 148 │   │   AndroidSDK.verify(tools=self.tools)                                                                                                                                │
+│   149 │   │   if not self.is_clone:                                                                                                                                              │
+│   150 │   │   │   self.console.add_log_file_extra(self.tools.android_sdk.list_packages)                                                                                          │
+│   151                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────── locals ─────────────────────────────────────────╮                                                                                      │
+│ │ self = <briefcase.platforms.android.gradle.GradlePackageCommand object at 0x76351bc320> │                                                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────╯                                                                                      │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/base.py:115 in verify                                                                        │
+│                                                                                                                                                                                  │
+│   112 │   │   **kwargs,                                                                        ╭───────────────────────────────── locals ─────────────────────────────────╮      │
+│   113 │   ) -> ManagedToolT:                                                                   │     app = None                                                           │      │
+│   114 │   │   """Confirm the managed tool is installed and available."""                       │ install = True                                                           │      │
+│ ❱ 115 │   │   return super().verify(tools=tools, app=app, install=install, **kwargs)           │  kwargs = {}                                                             │      │
+│   116 │                                                                                        │   tools = <briefcase.integrations.base.ToolCache object at 0x76351e8590> │      │
+│   117 │   @abstractmethod                                                                      ╰──────────────────────────────────────────────────────────────────────────╯      │
+│   118 │   def exists(self) -> bool:                                                                                                                                              │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/base.py:79 in verify                                                                         │
+│                                                                                                                                                                                  │
+│    76 │   ) -> ToolT:                                                                          ╭──────────────────────────────── locals ─────────────────────────────────╮       │
+│    77 │   │   """Confirm the tool is available and usable on the host platform."""             │    app = None                                                           │       │
+│    78 │   │   cls.verify_host(tools=tools)                                                     │ kwargs = {'install': True}                                              │       │
+│ ❱  79 │   │   tool = cls.verify_install(tools=tools, app=app, **kwargs)                        │  tools = <briefcase.integrations.base.ToolCache object at 0x76351e8590> │       │
+│    80 │   │   return tool                                                                      ╰─────────────────────────────────────────────────────────────────────────╯       │
+│    81 │                                                                                                                                                                          │
+│    82 │   @classmethod                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/android_sdk.py:371 in verify_install                                                         │
+│                                                                                                                                                                                  │
+│    368 │   │   │   │   │   │   "directory path in the ANDROID_HOME environment variable."                                                                                        │
+│    369 │   │   │   │   │   )                                                                                                                                                     │
+│    370 │   │   │   │   │   tools.console.info()                                                                                                                                  │
+│ ❱  371 │   │   │   │   sdk.install()                                                                                                                                             │
+│    372 │   │                                                                                                                                                                     │
+│    373 │   │   # Licences must be accepted to use the SDK                                                                                                                        │
+│    374 │   │   sdk.verify_license()                                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                            │
+│ │        install = True                                                                             │                                                                            │
+│ │         kwargs = {'app': None}                                                                    │                                                                            │
+│ │            sdk = <briefcase.integrations.android_sdk.AndroidSDK object at 0x763090d0d0>           │                                                                            │
+│ │   sdk_root_env = '/data/data/com.termux/files/home/android-sdk'                                   │                                                                            │
+│ │  sdk_root_path = PosixPath('/data/data/com.termux/files/home/.cache/briefcase/tools/android_sdk') │                                                                            │
+│ │ sdk_source_env = 'ANDROID_HOME'                                                                   │                                                                            │
+│ │          tools = <briefcase.integrations.base.ToolCache object at 0x76351e8590>                   │                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                            │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/android_sdk.py:404 in install                                                                │
+│                                                                                                                                                                                  │
+│    401 │   def install(self):                                                                                                                                                    │
+│    402 │   │   """Download and install the Android SDK."""                                                                                                                       │
+│    403 │   │   cmdline_tools_zip_path = self.tools.file.download(                                                                                                                │
+│ ❱  404 │   │   │   url=self.cmdline_tools_url,                                                                                                                                   │
+│    405 │   │   │   download_path=self.tools.base_path,                                                                                                                           │
+│    406 │   │   │   role="Android SDK Command-Line Tools",                                                                                                                        │
+│    407 │   │   )                                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────── locals ────────────────────────────────────╮                                                                                                │
+│ │ self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x763090d0d0> │                                                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────╯                                                                                                │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/android_sdk.py:100 in cmdline_tools_url                                                      │
+│                                                                                                                                                                                  │
+│     97 │   │   │   │   },                                                                                                                                                        │
+│     98 │   │   │   }[self.tools.host_os][self.tools.host_arch]                                                                                                                   │
+│     99 │   │   except KeyError:                                                                                                                                                  │
+│ ❱  100 │   │   │   raise IncompatibleToolError(                                                                                                                                  │
+│    101 │   │   │   │   tool=self.full_name, env_var="ANDROID_HOME"                                                                                                               │
+│    102 │   │   │   ) from None                                                                                                                                                   │
+│    103                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────── locals ────────────────────────────────────╮                                                                                                │
+│ │ self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x763090d0d0> │                                                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────╯                                                                                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+IncompatibleToolError: Briefcase cannot install Android SDK on this machine.
+
+Install Android SDK manually and specify the installation directory in the ANDROID_HOME environment variable.

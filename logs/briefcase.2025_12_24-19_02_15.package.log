@@ -1,0 +1,483 @@
+Date/Time:       2025-12-24 19:02:25 
+Command line:    /data/data/com.termux/files/usr/bin/briefcase package android
+
+OS Release:      Linux 4.19.191-27193134-abA037MUBSBCYE2
+OS Version:      #1 SMP PREEMPT Sat May 17 00:06:28 KST 2025
+Architecture:    aarch64
+Platform:        Linux-4.19.191-27193134-abA037MUBSBCYE2-aarch64-with-libc
+
+Python exe:      /data/data/com.termux/files/usr/bin/python3.12
+Python version:  3.12.12 (main, Oct 18 2025, 05:45:20) [Clang 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.26
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+	ANDROID_ART_ROOT=/apex/com.android.art
+	ANDROID_DATA=/data
+	ANDROID_HOME=/data/data/com.termux/files/home/android-sdk
+	ANDROID_I18N_ROOT=/apex/com.android.i18n
+	ANDROID_ROOT=/system
+	ANDROID_TZDATA_ROOT=/apex/com.android.tzdata
+	ANDROID__BUILD_VERSION_SDK=33
+	BOOTCLASSPATH=/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/knoxsdk.jar:/system/framework/SmpsManager.jar:/system/framework/uibc_java.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.btservices/javalib/framework-bluetooth.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.wifi/javalib/framework-wifi.jar:/apex/com.samsung.android.ipm/javalib/framework-samsung-ipm.jar:/apex/com.samsung.android.shell/javalib/framework-samsung-privilege.jar
+	COLORTERM=truecolor
+	DEX2OATBOOTCLASSPATH=/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/knoxsdk.jar:/system/framework/SmpsManager.jar:/system/framework/uibc_java.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar
+	EXTERNAL_STORAGE=/sdcard
+	HISTCONTROL=ignoreboth
+	HOME=/data/data/com.termux/files/home
+	JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk
+	LANG=en_US.UTF-8
+	LD_PRELOAD=/data/data/com.termux/files/usr/lib/libtermux-exec-ld-preload.so
+	OLDPWD=/data/data/com.termux/files/home/android-sdk/cmdline-tools
+	PATH=/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/home/android-sdk/cmdline-tools/latest/bin:/data/data/com.termux/files/home/android-sdk/cmdline-tools/latest/bin:/data/data/com.termux/files/home/android-sdk/cmdline-tools/latest/bin
+	PREFIX=/data/data/com.termux/files/usr
+	PWD=/storage/emulated/0/nova pasta/jdp_producoes_event
+	SHELL=/data/data/com.termux/files/usr/bin/bash
+	SHLVL=1
+	TERM=xterm-256color
+	TERMUX_APK_RELEASE=F_DROID
+	TERMUX_APP_PID=16656
+	TERMUX_APP__DATA_DIR=/data/user/0/com.termux
+	TERMUX_APP__LEGACY_DATA_DIR=/data/data/com.termux
+	TERMUX_APP__SE_FILE_CONTEXT=u:object_r:app_data_file:s0:c39,c257,c512,c768
+	TERMUX_APP__SE_INFO=default:targetSdkVersion=28:complete
+	TERMUX_IS_DEBUGGABLE_BUILD=0
+	TERMUX_MAIN_PACKAGE_FORMAT=debian
+	TERMUX_VERSION=0.118.3
+	TERMUX__HOME=/data/data/com.termux/files/home
+	TERMUX__PREFIX=/data/data/com.termux/files/usr
+	TERMUX__ROOTFS_DIR=/data/data/com.termux/files
+	TERMUX__SE_PROCESS_CONTEXT=u:r:untrusted_app_27:s0:c39,c257,c512,c768
+	TMPDIR=/data/data/com.termux/files/usr/tmp
+	_=/data/data/com.termux/files/usr/bin/briefcase
+
+pyproject.toml:
+[tool.briefcase]
+project_name = "Dony Produções Eventos"
+bundle = "com.jdp"
+version = "24.0"
+display_name = "DonyEvent"
+formal_name = "Dony Produções Eventos"
+description = "Sistema de Gestão JDP System"
+license = "BSD-3-Clause"
+
+[tool.briefcase.app.DonyEvent]
+formal_name = "Dony Produções Eventos"
+description = "Sistema JDP"
+sources = ["src/DonyEvent"]
+
+[tool.briefcase.app.DonyEvent.macOS]
+universal_architectures = ["x86_64", "arm64"]
+
+[tool.briefcase.app.DonyEvent.linux]
+[tool.briefcase.app.DonyEvent.windows]
+[tool.briefcase.app.DonyEvent.android]
+build_gradle_dependencies = ["androidx.appcompat:appcompat:1.6.1"]
+
+Briefcase Log:
+[19:00:35]                                                                                                                                                             config.py:792
+           *************************************************************************                                                                                   config.py:792
+           ** WARNING: License Definition for the Project is Deprecated           **                                                                                   config.py:792
+           *************************************************************************                                                                                   config.py:792
+                                                                                                                                                                       config.py:792
+               Briefcase now uses PEP 621 format for license definitions.                                                                                              config.py:792
+                                                                                                                                                                       config.py:792
+               Previously, the name of the license was assigned to the 'license'                                                                                       config.py:792
+               field in pyproject.toml. For PEP 621, the name of the license is                                                                                        config.py:792
+               assigned to 'license.text' or the name of the file containing the                                                                                       config.py:792
+               license is assigned to 'license.file'.                                                                                                                  config.py:792
+                                                                                                                                                                       config.py:792
+               The current configuration for the Project has a 'license' field                                                                                         config.py:792
+               that is specified as a string:                                                                                                                          config.py:792
+                                                                                                                                                                       config.py:792
+                   license = "BSD-3-Clause"                                                                                                                            config.py:792
+                                                                                                                                                                       config.py:792
+               To use the PEP 621 format (and to remove this warning), specify that                                                                                    config.py:792
+               the LICENSE file contains the license for the Project:                                                                                                  config.py:792
+                                                                                                                                                                       config.py:792
+                   license.file = "LICENSE"                                                                                                                            config.py:792
+                                                                                                                                                                       config.py:792
+           *************************************************************************                                                                                   config.py:792
+                                                                                                                                                                         java.py:111
+           [Java JDK] Evaluating JAVA_HOME...                                                                                                                            java.py:111
+           JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk                                                                                             java.py:112
+                                                                                                                                                                   subprocess.py:839
+           >>> Running Command:                                                                                                                                    subprocess.py:839
+           >>>     /data/data/com.termux/files/usr/lib/jvm/java-17-openjdk/bin/javac -version                                                                      subprocess.py:839
+           >>> Working Directory:                                                                                                                                  subprocess.py:839
+           >>>     /storage/emulated/0/nova pasta/jdp_producoes_event                                                                                              subprocess.py:839
+[19:00:37] >>> Command Output:                                                                                                                                     subprocess.py:839
+           >>>     javac 17.0.17                                                                                                                                   subprocess.py:839
+           >>> Return code: 0                                                                                                                                      subprocess.py:839
+                                                                                                                                                                   subprocess.py:839
+           Using JDK at /data/data/com.termux/files/usr/lib/jvm/java-17-openjdk                                                                                          java.py:263
+                                                                                                                                                                  android_sdk.py:271
+           [Android SDK] Evaluating ANDROID_HOME...                                                                                                               android_sdk.py:271
+           ANDROID_HOME=/data/data/com.termux/files/home/android-sdk                                                                                              android_sdk.py:272
+                                                                                                                                                                  android_sdk.py:493
+           [Android SDK] Installing Android Command-Line Tools 19.0...                                                                                            android_sdk.py:493
+           Using Android SDK at /data/data/com.termux/files/home/android-sdk                                                                                      android_sdk.py:497
+                                                                                                                                                                   subprocess.py:839
+           >>> Running Command:                                                                                                                                    subprocess.py:839
+           >>>     /data/data/com.termux/files/home/android-sdk/cmdline-tools/latest/bin/sdkmanager 'cmdline-tools;19.0'                                           subprocess.py:839
+           >>> Working Directory:                                                                                                                                  subprocess.py:839
+           >>>     /storage/emulated/0/nova pasta/jdp_producoes_event                                                                                              subprocess.py:839
+[19:01:44] >>> Return code: 0                                                                                                                                      subprocess.py:839
+                                                                                                                                                                   subprocess.py:839
+           Using Android SDK at /data/data/com.termux/files/home/android-sdk                                                                                      android_sdk.py:376
+[19:01:46]                                                                                                                                                             create.py:947
+           [DonyEvent] Generating application template...                                                                                                              create.py:947
+           Using app template: https://github.com/beeware/briefcase-android-gradle-template.git, branch v0.3.26                                                         base.py:1320
+           Cloning template 'https://github.com/beeware/briefcase-android-gradle-template.git'...                                                                       base.py:1145
+[19:01:50] Using existing template (sha 21524ca219a47c903ef4d23fe492c9a651f2561f, updated Mon Dec  1 10:13:53 2025)                                                     base.py:1221
+[19:01:57]                                                                                                                                                             create.py:969
+           [DonyEvent] Installing support package...                                                                                                                   create.py:969
+           No support package required.                                                                                                                                create.py:329
+                                                                                                                                                                       create.py:987
+           [DonyEvent] Installing application code...                                                                                                                  create.py:987
+           Installing src/DonyEvent... started                                                                                                                         create.py:743
+           Installing src/DonyEvent... done                                                                                                                            create.py:743
+                                                                                                                                                                       create.py:990
+           [DonyEvent] Installing requirements...                                                                                                                      create.py:990
+           Writing requirements file... started                                                                                                                        create.py:538
+[19:01:58] Writing requirements file... done                                                                                                                           create.py:538
+                                                                                                                                                                       create.py:993
+           [DonyEvent] Installing application resources...                                                                                                             create.py:993
+                                                                                                                                                                       create.py:998
+           [DonyEvent] Removing unneeded app content...                                                                                                                create.py:998
+           Removing unneeded app bundle content... started                                                                                                             create.py:907
+           Removing directory app/src/main/python/DonyEvent/__pycache__                                                                                                create.py:914
+           Removing unneeded app bundle content... done                                                                                                                create.py:907
+                                                                                                                                                                      create.py:1001
+           [DonyEvent] Created build/DonyEvent/android/gradle                                                                                                         create.py:1001
+                                                                                                                                                                       gradle.py:349
+           [DonyEvent] Updating app metadata...                                                                                                                        gradle.py:349
+           Setting main module... started                                                                                                                              gradle.py:331
+           Setting main module... done                                                                                                                                 gradle.py:331
+                                                                                                                                                                       gradle.py:352
+           [DonyEvent] Building Android APK...                                                                                                                         gradle.py:352
+           Building... started                                                                                                                                         gradle.py:353
+           Downloading the Android emulator...                                                                                                                    android_sdk.py:656
+                                                                                                                                                                   subprocess.py:839
+           >>> Running Command:                                                                                                                                    subprocess.py:839
+           >>>     /data/data/com.termux/files/home/android-sdk/cmdline-tools/19.0/bin/sdkmanager platform-tools emulator                                          subprocess.py:839
+           >>> Working Directory:                                                                                                                                  subprocess.py:839
+           >>>     /storage/emulated/0/nova pasta/jdp_producoes_event                                                                                              subprocess.py:839
+           >>> Environment Overrides:                                                                                                                              subprocess.py:839
+           >>>     ANDROID_HOME=/data/data/com.termux/files/home/android-sdk                                                                                       subprocess.py:839
+           >>>     ANDROID_SDK_ROOT=/data/data/com.termux/files/home/android-sdk                                                                                   subprocess.py:839
+           >>>     JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk                                                                               subprocess.py:839
+[19:02:15] >>> Return code: 1                                                                                                                                      subprocess.py:839
+                                                                                                                                                                   subprocess.py:839
+           Building... errored                                                                                                                                         gradle.py:353
+                                                                                                                                                                      __main__.py:42
+           Error while installing Android emulator.                                                                                                                   __main__.py:43
+           Saving log... started                                                                                                                                      console.py:443
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/android_sdk.py:658 in verify_emulator                                                        │
+│                                                                                                                                                                                  │
+│    655 │   │                                                                                                                                                                     │
+│    656 │   │   self.tools.console.info("Downloading the Android emulator...")                                                                                                    │
+│    657 │   │   try:                                                                                                                                                              │
+│ ❱  658 │   │   │   self.tools.subprocess.run(                                                                                                                                    │
+│    659 │   │   │   │   [self.sdkmanager_path, "platform-tools", "emulator"],                                                                                                     │
+│    660 │   │   │   │   env=self.env,                                                                                                                                             │
+│    661 │   │   │   │   check=True,                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────── locals ────────────────────────────────────╮                                                                                                │
+│ │ self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x7bbfd17a40> │                                                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────╯                                                                                                │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/subprocess.py:143 in inner                                                                   │
+│                                                                                                                                                                                  │
+│   140 │   │   # Run subprocess command with or without console control                                                                                                           │
+│   141 │   │   if remove_dynamic_elements:                                                                                                                                        │
+│   142 │   │   │   with sub.tools.console.release_console_control():                                                                                                              │
+│ ❱ 143 │   │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                              │
+│   144 │   │   else:                                                                                                                                                              │
+│   145 │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                                  │
+│   146                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────╮                        │
+│ │                    args = [PosixPath('/data/data/com.termux/files/home/android-sdk/cmdline-tools/19.0/bin/sdkmanager'), 'platform-tools', 'emulator'] │                        │
+│ │ remove_dynamic_elements = True                                                                                                                        │                        │
+│ │                     sub = <briefcase.integrations.subprocess.Subprocess object at 0x7bbfdc5fa0>                                                       │                        │
+│ │            wrapped_args = ()                                                                                                                          │                        │
+│ │          wrapped_kwargs = {                                                                                                                           │                        │
+│ │                           │   'env': {                                                                                                                │                        │
+│ │                           │   │   'ANDROID_HOME': '/data/data/com.termux/files/home/android-sdk',                                                     │                        │
+│ │                           │   │   'ANDROID_SDK_ROOT': '/data/data/com.termux/files/home/android-sdk',                                                 │                        │
+│ │                           │   │   'JAVA_HOME': '/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk'                                              │                        │
+│ │                           │   },                                                                                                                      │                        │
+│ │                           │   'check': True,                                                                                                          │                        │
+│ │                           │   'stream_output': False                                                                                                  │                        │
+│ │                           }                                                                                                                           │                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                        │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/subprocess.py:551 in run                                                                     │
+│                                                                                                                                                                                  │
+│   548 │   │   self._log_environment(kwargs.get("env"))                                                                                                                           │
+│   549 │   │                                                                                                                                                                      │
+│   550 │   │   try:                                                                                                                                                               │
+│ ❱ 551 │   │   │   command_result = self._subprocess.run(                                                                                                                         │
+│   552 │   │   │   │   [str(arg) for arg in args], **self.final_kwargs(**kwargs)                                                                                                  │
+│   553 │   │   │   )                                                                                                                                                              │
+│   554 │   │   except subprocess.CalledProcessError as e:                                                                                                                         │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────╮                                  │
+│ │          args = [PosixPath('/data/data/com.termux/files/home/android-sdk/cmdline-tools/19.0/bin/sdkmanager'), 'platform-tools', 'emulator'] │                                  │
+│ │   filter_func = None                                                                                                                        │                                  │
+│ │        kwargs = {                                                                                                                           │                                  │
+│ │                 │   'env': {                                                                                                                │                                  │
+│ │                 │   │   'ANDROID_HOME': '/data/data/com.termux/files/home/android-sdk',                                                     │                                  │
+│ │                 │   │   'ANDROID_SDK_ROOT': '/data/data/com.termux/files/home/android-sdk',                                                 │                                  │
+│ │                 │   │   'JAVA_HOME': '/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk'                                              │                                  │
+│ │                 │   },                                                                                                                      │                                  │
+│ │                 │   'check': True                                                                                                           │                                  │
+│ │                 }                                                                                                                           │                                  │
+│ │          self = <briefcase.integrations.subprocess.Subprocess object at 0x7bbfdc5fa0>                                                       │                                  │
+│ │ stream_output = False                                                                                                                       │                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                  │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/subprocess.py:571 in run                                                                                                          │
+│                                                                                                                                                                                  │
+│    568 │   │   │   raise                                                                                                                                                         │
+│    569 │   │   retcode = process.poll()                                                                                                                                          │
+│    570 │   │   if check and retcode:                                                                                                                                             │
+│ ❱  571 │   │   │   raise CalledProcessError(retcode, process.args,                                                                                                               │
+│    572 │   │   │   │   │   │   │   │   │    output=stdout, stderr=stderr)                                                                                                        │
+│    573 │   return CompletedProcess(process.args, retcode, stdout, stderr)                                                                                                        │
+│    574                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                         │
+│ │ capture_output = False                                                                                                               │                                         │
+│ │          check = True                                                                                                                │                                         │
+│ │          input = None                                                                                                                │                                         │
+│ │         kwargs = {                                                                                                                   │                                         │
+│ │                  │   'env': {                                                                                                        │                                         │
+│ │                  │   │   'SHELL': '/data/data/com.termux/files/usr/bin/bash',                                                        │                                         │
+│ │                  │   │   'COLORTERM': 'truecolor',                                                                                   │                                         │
+│ │                  │   │   'HISTCONTROL': 'ignoreboth',                                                                                │                                         │
+│ │                  │   │   'PREFIX': '/data/data/com.termux/files/usr',                                                                │                                         │
+│ │                  │   │   'JAVA_HOME': '/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk',                                     │                                         │
+│ │                  │   │   'TERMUX_IS_DEBUGGABLE_BUILD': '0',                                                                          │                                         │
+│ │                  │   │   'TERMUX_MAIN_PACKAGE_FORMAT': 'debian',                                                                     │                                         │
+│ │                  │   │   'PWD': '/storage/emulated/0/nova pasta/jdp_producoes_event',                                                │                                         │
+│ │                  │   │   'TERMUX__HOME': '/data/data/com.termux/files/home',                                                         │                                         │
+│ │                  │   │   'TERMUX_VERSION': '0.118.3',                                                                                │                                         │
+│ │                  │   │   ... +29                                                                                                     │                                         │
+│ │                  │   },                                                                                                              │                                         │
+│ │                  │   'text': True,                                                                                                   │                                         │
+│ │                  │   'encoding': 'utf-8',                                                                                            │                                         │
+│ │                  │   'errors': 'backslashreplace'                                                                                    │                                         │
+│ │                  }                                                                                                                   │                                         │
+│ │      popenargs = (['/data/data/com.termux/files/home/android-sdk/cmdline-tools/19.0/bin/sdkmanager', 'platform-tools', 'emulator'],) │                                         │
+│ │        process = <Popen: returncode: 1 args: ['/data/data/com.termux/files/home/android-sdk/c...>                                    │                                         │
+│ │        retcode = 1                                                                                                                   │                                         │
+│ │         stderr = None                                                                                                                │                                         │
+│ │         stdout = None                                                                                                                │                                         │
+│ │        timeout = None                                                                                                                │                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command '['/data/data/com.termux/files/home/android-sdk/cmdline-tools/19.0/bin/sdkmanager', 'platform-tools', 'emulator']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/__main__.py:27 in main                                                                                    │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                          │
+│ │       command = <briefcase.platforms.android.gradle.GradlePackageCommand object at 0x7bc465cc50>    │                                                                          │
+│ │       console = <briefcase.console.Console object at 0x7bc5a14890>                                  │                                                                          │
+│ │             e = BriefcaseCommandError('Error while installing Android emulator.')                   │                                                                          │
+│ │ extra_cmdline = []                                                                                  │                                                                          │
+│ │       options = {'update': False, 'packaging_format': 'aab', 'adhoc_sign': False, 'identity': None} │                                                                          │
+│ │     overrides = {}                                                                                  │                                                                          │
+│ │        result = 200                                                                                 │                                                                          │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                          │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/package.py:204 in __call__                                                                       │
+│                                                                                                                                                                                  │
+│   201 │   │                                                                                                                                                                      │
+│   202 │   │   state = None                                                                                                                                                       │
+│   203 │   │   for _, app_obj in sorted(apps_to_package.items()):                                                                                                                 │
+│ ❱ 204 │   │   │   state = self._package_app(                                                                                                                                     │
+│   205 │   │   │   │   app_obj,                                                                                                                                                   │
+│   206 │   │   │   │   update=update,                                                                                                                                             │
+│   207 │   │   │   │   **full_options(state, options),                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                           │
+│ │               _ = 'DonyEvent'                                                                      │                                                                           │
+│ │             app = None                                                                             │                                                                           │
+│ │        app_name = None                                                                             │                                                                           │
+│ │         app_obj = <com.jdp.DonyEvent v24.0 AppConfig>                                              │                                                                           │
+│ │ apps_to_package = {'DonyEvent': <com.jdp.DonyEvent v24.0 AppConfig>}                               │                                                                           │
+│ │         options = {'packaging_format': 'aab', 'adhoc_sign': False, 'identity': None}               │                                                                           │
+│ │            self = <briefcase.platforms.android.gradle.GradlePackageCommand object at 0x7bc465cc50> │                                                                           │
+│ │           state = None                                                                             │                                                                           │
+│ │          update = False                                                                            │                                                                           │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                           │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/package.py:104 in _package_app                                                                   │
+│                                                                                                                                                                                  │
+│   101 │   │   │   state = self.create_command(app, **options)                                                                                                                    │
+│   102 │   │   elif not template_file.exists():                                                                                                                                   │
+│   103 │   │   │   state = self.create_command(app, **options)                                                                                                                    │
+│ ❱ 104 │   │   │   state = self.build_command(app, **full_options(state, options))                                                                                                │
+│   105 │   │   elif update:                                                                                                                                                       │
+│   106 │   │   │   # If we're updating for packaging, update everything.                                                                                                          │
+│   107 │   │   │   # This ensures everything in the packaged artefact is up to date,                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────╮                  │
+│ │              app = <com.jdp.DonyEvent v24.0 AppConfig>                                                                                                      │                  │
+│ │      binary_file = PosixPath('/storage/emulated/0/nova pasta/jdp_producoes_event/build/DonyEvent/android/gradle/app/build/outputs/apk/debug/app-debug.apk') │                  │
+│ │          options = {'adhoc_sign': False, 'identity': None}                                                                                                  │                  │
+│ │ packaging_format = 'aab'                                                                                                                                    │                  │
+│ │             self = <briefcase.platforms.android.gradle.GradlePackageCommand object at 0x7bc465cc50>                                                         │                  │
+│ │            state = None                                                                                                                                     │                  │
+│ │    template_file = PosixPath('/storage/emulated/0/nova pasta/jdp_producoes_event/build/DonyEvent/android/gradle')                                           │                  │
+│ │           update = False                                                                                                                                    │                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                  │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/build.py:159 in __call__                                                                         │
+│                                                                                                                                                                                  │
+│   156 │   │                                                                                                                                                                      │
+│   157 │   │   state = None                                                                                                                                                       │
+│   158 │   │   for _, app_obj in sorted(apps_to_build.items()):                                                                                                                   │
+│ ❱ 159 │   │   │   state = self._build_app(                                                                                                                                       │
+│   160 │   │   │   │   app_obj,                                                                                                                                                   │
+│   161 │   │   │   │   update=update,                                                                                                                                             │
+│   162 │   │   │   │   update_requirements=update_requirements,                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                         │
+│ │                   _ = 'DonyEvent'                                                                    │                                                                         │
+│ │                 app = <com.jdp.DonyEvent v24.0 AppConfig>                                            │                                                                         │
+│ │            app_name = None                                                                           │                                                                         │
+│ │             app_obj = <com.jdp.DonyEvent v24.0 AppConfig>                                            │                                                                         │
+│ │       apps_to_build = {'DonyEvent': <com.jdp.DonyEvent v24.0 AppConfig>}                             │                                                                         │
+│ │            debugger = None                                                                           │                                                                         │
+│ │           no_update = False                                                                          │                                                                         │
+│ │             options = {'adhoc_sign': False, 'identity': None}                                        │                                                                         │
+│ │                self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7bbf9657c0> │                                                                         │
+│ │               state = None                                                                           │                                                                         │
+│ │           test_mode = False                                                                          │                                                                         │
+│ │              update = False                                                                          │                                                                         │
+│ │ update_requirements = False                                                                          │                                                                         │
+│ │    update_resources = False                                                                          │                                                                         │
+│ │         update_stub = False                                                                          │                                                                         │
+│ │      update_support = False                                                                          │                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                         │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/build.py:92 in _build_app                                                                        │
+│                                                                                                                                                                                  │
+│    89 │   │                                                                                                                                                                      │
+│    90 │   │   self.verify_app(app)                                                                                                                                               │
+│    91 │   │                                                                                                                                                                      │
+│ ❱  92 │   │   state = self.build_app(app, **full_options(state, options))                                                                                                        │
+│    93 │   │                                                                                                                                                                      │
+│    94 │   │   qualifier = " (test mode)" if app.test_mode else ""                                                                                                                │
+│    95 │   │   qualifier += " (debug mode)" if app.debugger else ""                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                         │
+│ │                 app = <com.jdp.DonyEvent v24.0 AppConfig>                                            │                                                                         │
+│ │           no_update = False                                                                          │                                                                         │
+│ │             options = {'adhoc_sign': False, 'identity': None}                                        │                                                                         │
+│ │                self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7bbf9657c0> │                                                                         │
+│ │               state = None                                                                           │                                                                         │
+│ │              update = False                                                                          │                                                                         │
+│ │ update_requirements = False                                                                          │                                                                         │
+│ │    update_resources = False                                                                          │                                                                         │
+│ │         update_stub = False                                                                          │                                                                         │
+│ │      update_support = False                                                                          │                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                         │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/platforms/android/gradle.py:355 in build_app                                                              │
+│                                                                                                                                                                                  │
+│   352 │   │   self.console.info("Building Android APK...", prefix=app.app_name)                                                                                                  │
+│   353 │   │   with self.console.wait_bar("Building..."):                                                                                                                         │
+│   354 │   │   │   try:                                                                                                                                                           │
+│ ❱ 355 │   │   │   │   self.run_gradle(app, ["assembleDebug"])                                                                                                                    │
+│   356 │   │   │   except subprocess.CalledProcessError as e:                                                                                                                     │
+│   357 │   │   │   │   raise BriefcaseCommandError("Error while building project.") from e                                                                                        │
+│   358                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────── locals ─────────────────────────────────────────╮                                                                                      │
+│ │    app = <com.jdp.DonyEvent v24.0 AppConfig>                                            │                                                                                      │
+│ │ kwargs = {'adhoc_sign': False, 'identity': None}                                        │                                                                                      │
+│ │   self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7bbf9657c0> │                                                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────╯                                                                                      │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/platforms/android/gradle.py:117 in run_gradle                                                             │
+│                                                                                                                                                                                  │
+│   114 │   │   # Work around this by pre-installing the emulator with our own sdkmanager before                                                                                   │
+│   115 │   │   # running Gradle. For simplicity, we do this on all platforms, since the user                                                                                      │
+│   116 │   │   # will almost certainly want an emulator soon enough.                                                                                                              │
+│ ❱ 117 │   │   self.tools.android_sdk.verify_emulator()                                                                                                                           │
+│   118 │   │                                                                                                                                                                      │
+│   119 │   │   gradlew = "gradlew.bat" if self.tools.host_os == "Windows" else "gradlew"                                                                                          │
+│   120 │   │   self.tools.subprocess.run(                                                                                                                                         │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────── locals ────────────────────────────────────────╮                                                                                        │
+│ │  app = <com.jdp.DonyEvent v24.0 AppConfig>                                            │                                                                                        │
+│ │ args = ['assembleDebug']                                                              │                                                                                        │
+│ │ self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7bbf9657c0> │                                                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────╯                                                                                        │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/integrations/android_sdk.py:665 in verify_emulator                                                        │
+│                                                                                                                                                                                  │
+│    662 │   │   │   │   stream_output=False,                                                                                                                                      │
+│    663 │   │   │   )                                                                                                                                                             │
+│    664 │   │   except subprocess.CalledProcessError as e:                                                                                                                        │
+│ ❱  665 │   │   │   raise BriefcaseCommandError(                                                                                                                                  │
+│    666 │   │   │   │   "Error while installing Android emulator."                                                                                                                │
+│    667 │   │   │   ) from e                                                                                                                                                      │
+│    668                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────── locals ────────────────────────────────────╮                                                                                                │
+│ │ self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x7bbfd17a40> │                                                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────╯                                                                                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Error while installing Android emulator.
+[19:02:18] Collecting extra information for log... started                                                                                                            console.py:481
+                                                                                                                                                                      console.py:485
+           Extra information:                                                                                                                                         console.py:486
+                                                                                                                                                                   subprocess.py:839
+           >>> Running Command:                                                                                                                                    subprocess.py:839
+           >>>     /data/data/com.termux/files/home/android-sdk/cmdline-tools/19.0/bin/sdkmanager --list_installed                                                 subprocess.py:839
+           >>> Working Directory:                                                                                                                                  subprocess.py:839
+           >>>     /storage/emulated/0/nova pasta/jdp_producoes_event                                                                                              subprocess.py:839
+           >>> Environment Overrides:                                                                                                                              subprocess.py:839
+           >>>     ANDROID_HOME=/data/data/com.termux/files/home/android-sdk                                                                                       subprocess.py:839
+           >>>     ANDROID_SDK_ROOT=/data/data/com.termux/files/home/android-sdk                                                                                   subprocess.py:839
+           >>>     JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk                                                                               subprocess.py:839
+[19:02:24] >>> Command Output:                                                                                                                                     subprocess.py:839
+           >>>     Loading package information...                                                                                                                  subprocess.py:839
+           >>>     Loading local repository...                                                                                                                     subprocess.py:839
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:839
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:839
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:839
+[19:02:25] >>>     Installed packages:                                                                                                                             subprocess.py:839
+           >>>       Path                 | Version | Description                    | Location                                                                    subprocess.py:839
+           >>>       -------              | ------- | -------                        | -------                                                                     subprocess.py:839
+           >>>       build-tools;33.0.2   | 33.0.2  | Android SDK Build-Tools 33.0.2 | build-tools/33.0.2                                                          subprocess.py:839
+           >>>       cmdline-tools;19.0   | 19.0    | Android SDK Command-line Tools | cmdline-tools/19.0                                                          subprocess.py:839
+           >>>       platform-tools       | 36.0.2  | Android SDK Platform-Tools     | platform-tools                                                              subprocess.py:839
+           >>>       platforms;android-33 | 3       | Android SDK Platform 33        | platforms/android-33                                                        subprocess.py:839
+           >>>                                                                                                                                                     subprocess.py:839
+           >>> Return code: 0                                                                                                                                      subprocess.py:839
+                                                                                                                                                                   subprocess.py:839
+           Collecting extra information for log... done                                                                                                               console.py:481

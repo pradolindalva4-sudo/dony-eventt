@@ -1,0 +1,222 @@
+Date/Time:       2025-12-24 18:30:10 
+Command line:    /data/data/com.termux/files/usr/bin/briefcase dev
+
+OS Release:      Linux 4.19.191-27193134-abA037MUBSBCYE2
+OS Version:      #1 SMP PREEMPT Sat May 17 00:06:28 KST 2025
+Architecture:    aarch64
+Platform:        Linux-4.19.191-27193134-abA037MUBSBCYE2-aarch64-with-libc
+
+Python exe:      /data/data/com.termux/files/usr/bin/python3.12
+Python version:  3.12.12 (main, Oct 18 2025, 05:45:20) [Clang 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.26
+Target platform: linux
+Target format:   system
+
+Environment Variables:
+	ANDROID_ART_ROOT=/apex/com.android.art
+	ANDROID_DATA=/data
+	ANDROID_I18N_ROOT=/apex/com.android.i18n
+	ANDROID_ROOT=/system
+	ANDROID_TZDATA_ROOT=/apex/com.android.tzdata
+	ANDROID__BUILD_VERSION_SDK=33
+	BOOTCLASSPATH=/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/knoxsdk.jar:/system/framework/SmpsManager.jar:/system/framework/uibc_java.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.btservices/javalib/framework-bluetooth.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.wifi/javalib/framework-wifi.jar:/apex/com.samsung.android.ipm/javalib/framework-samsung-ipm.jar:/apex/com.samsung.android.shell/javalib/framework-samsung-privilege.jar
+	COLORTERM=truecolor
+	DEX2OATBOOTCLASSPATH=/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/knoxsdk.jar:/system/framework/SmpsManager.jar:/system/framework/uibc_java.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar
+	EXTERNAL_STORAGE=/sdcard
+	HISTCONTROL=ignoreboth
+	HOME=/data/data/com.termux/files/home
+	JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-21-openjdk/
+	LANG=en_US.UTF-8
+	LD_PRELOAD=/data/data/com.termux/files/usr/lib/libtermux-exec-ld-preload.so
+	OLDPWD=/storage/emulated/0/nova pasta
+	PATH=/data/data/com.termux/files/usr/bin
+	PREFIX=/data/data/com.termux/files/usr
+	PWD=/storage/emulated/0/nova pasta/jdp_producoes_event
+	SHELL=/data/data/com.termux/files/usr/bin/bash
+	SHLVL=1
+	TERM=xterm-256color
+	TERMUX_APK_RELEASE=F_DROID
+	TERMUX_APP_PID=16656
+	TERMUX_APP__DATA_DIR=/data/user/0/com.termux
+	TERMUX_APP__LEGACY_DATA_DIR=/data/data/com.termux
+	TERMUX_APP__SE_FILE_CONTEXT=u:object_r:app_data_file:s0:c39,c257,c512,c768
+	TERMUX_APP__SE_INFO=default:targetSdkVersion=28:complete
+	TERMUX_IS_DEBUGGABLE_BUILD=0
+	TERMUX_MAIN_PACKAGE_FORMAT=debian
+	TERMUX_VERSION=0.118.3
+	TERMUX__HOME=/data/data/com.termux/files/home
+	TERMUX__PREFIX=/data/data/com.termux/files/usr
+	TERMUX__ROOTFS_DIR=/data/data/com.termux/files
+	TERMUX__SE_PROCESS_CONTEXT=u:r:untrusted_app_27:s0:c39,c257,c512,c768
+	TMPDIR=/data/data/com.termux/files/usr/tmp
+	_=/data/data/com.termux/files/usr/bin/briefcase
+
+pyproject.toml:
+[tool.briefcase]
+project_name = "Dony Produções Eventos"
+bundle = "com.jdp"
+version = "24.0"
+display_name = "DonyEvent"
+formal_name = "Dony Produções Eventos"
+description = "Sistema de Gestão JDP System"
+license = "BSD-3-Clause"
+
+[tool.briefcase.app.DonyEvent]
+formal_name = "Dony Produções Eventos"
+description = "Sistema JDP"
+sources = ["src/DonyEvent"]
+
+[tool.briefcase.app.DonyEvent.macOS]
+universal_architectures = ["x86_64", "arm64"]
+
+[tool.briefcase.app.DonyEvent.linux]
+[tool.briefcase.app.DonyEvent.windows]
+[tool.briefcase.app.DonyEvent.android]
+build_gradle_dependencies = ["androidx.appcompat:appcompat:1.6.1"]
+
+Briefcase Log:
+[18:30:08]                                                                                                                                                             config.py:792
+           *************************************************************************                                                                                   config.py:792
+           ** WARNING: License Definition for the Project is Deprecated           **                                                                                   config.py:792
+           *************************************************************************                                                                                   config.py:792
+                                                                                                                                                                       config.py:792
+               Briefcase now uses PEP 621 format for license definitions.                                                                                              config.py:792
+                                                                                                                                                                       config.py:792
+               Previously, the name of the license was assigned to the 'license'                                                                                       config.py:792
+               field in pyproject.toml. For PEP 621, the name of the license is                                                                                        config.py:792
+               assigned to 'license.text' or the name of the file containing the                                                                                       config.py:792
+               license is assigned to 'license.file'.                                                                                                                  config.py:792
+                                                                                                                                                                       config.py:792
+               The current configuration for the Project has a 'license' field                                                                                         config.py:792
+               that is specified as a string:                                                                                                                          config.py:792
+                                                                                                                                                                       config.py:792
+                   license = "BSD-3-Clause"                                                                                                                            config.py:792
+                                                                                                                                                                       config.py:792
+               To use the PEP 621 format (and to remove this warning), specify that                                                                                    config.py:792
+               the LICENSE file contains the license for the Project:                                                                                                  config.py:792
+                                                                                                                                                                       config.py:792
+                   license.file = "LICENSE"                                                                                                                            config.py:792
+                                                                                                                                                                       config.py:792
+           *************************************************************************                                                                                   config.py:792
+                                                                                                                                                                          dev.py:320
+           [DonyEvent] Starting in dev mode...                                                                                                                            dev.py:320
+                                                                                                                                                                   subprocess.py:839
+           >>> Running Command:                                                                                                                                    subprocess.py:839
+           >>>     /data/data/com.termux/files/usr/bin/python3.12 -c 'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("DonyEvent",          subprocess.py:839
+           run_name="__main__", alter_sys=True)'                                                                                                                                    
+           >>> Working Directory:                                                                                                                                  subprocess.py:839
+           >>>     /data/data/com.termux/files/home                                                                                                                subprocess.py:839
+           >>> Environment Overrides:                                                                                                                              subprocess.py:839
+           >>>     PYTHONPATH=/storage/emulated/0/nova pasta/jdp_producoes_event/src                                                                               subprocess.py:839
+           >>>     PYTHONUNBUFFERED=1                                                                                                                              subprocess.py:839
+           >>>     PYTHONDEVMODE=1                                                                                                                                 subprocess.py:839
+           >>>     PYTHONUTF8=1                                                                                                                                    subprocess.py:839
+           ===========================================================================                                                                                    run.py:175
+           Traceback (most recent call last):                                                                                                                      subprocess.py:196
+             File "<frozen runpy>", line 148, in _get_module_details                                                                                               subprocess.py:196
+             File "<frozen runpy>", line 142, in _get_module_details                                                                                               subprocess.py:196
+           ImportError: No module named DonyEvent.__main__                                                                                                         subprocess.py:196
+                                                                                                                                                                   subprocess.py:196
+           During handling of the above exception, another exception occurred:                                                                                     subprocess.py:196
+                                                                                                                                                                   subprocess.py:196
+           Traceback (most recent call last):                                                                                                                      subprocess.py:196
+             File "<string>", line 1, in <module>                                                                                                                  subprocess.py:196
+             File "<frozen runpy>", line 222, in run_module                                                                                                        subprocess.py:196
+[18:30:09]   File "<frozen runpy>", line 152, in _get_module_details                                                                                               subprocess.py:196
+           ImportError: No module named DonyEvent.__main__; 'DonyEvent' is a package and cannot be directly executed                                               subprocess.py:196
+                                                                                                                                                                      __main__.py:42
+           Problem running app DonyEvent.                                                                                                                             __main__.py:43
+           Saving log... started                                                                                                                                      console.py:443
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/__main__.py:27 in main                                                                                    │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                      │
+│ │       command = <briefcase.platforms.linux.system.LinuxSystemDevCommand object at 0x7c303f5a30>                         │                                                      │
+│ │       console = <briefcase.console.Console object at 0x7c3bb546e0>                                                      │                                                      │
+│ │             e = BriefcaseCommandError('Problem running app DonyEvent.')                                                 │                                                      │
+│ │ extra_cmdline = []                                                                                                      │                                                      │
+│ │       options = {'appname': None, 'update_requirements': False, 'run_app': True, 'test_mode': False, 'passthrough': []} │                                                      │
+│ │     overrides = {}                                                                                                      │                                                      │
+│ │        result = 200                                                                                                     │                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                      │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/dev.py:321 in __call__                                                                           │
+│                                                                                                                                                                                  │
+│   318 │   │   │   │   │   )                                                                                                                                                      │
+│   319 │   │   │   │   else:                                                                                                                                                      │
+│   320 │   │   │   │   │   self.console.info("Starting in dev mode...", prefix=app.app_name)                                                                                      │
+│ ❱ 321 │   │   │   │   return self.run_dev_app(                                                                                                                                   │
+│   322 │   │   │   │   │   app,                                                                                                                                                   │
+│   323 │   │   │   │   │   env=self.get_environment(app),                                                                                                                         │
+│   324 │   │   │   │   │   venv=venv,                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────── locals ──────────────────────────────────────────────────╮                                                                    │
+│ │                 app = <com.jdp.DonyEvent v24.0 AppConfig>                                                 │                                                                    │
+│ │             appname = None                                                                                │                                                                    │
+│ │             options = {}                                                                                  │                                                                    │
+│ │         passthrough = []                                                                                  │                                                                    │
+│ │             run_app = True                                                                                │                                                                    │
+│ │                self = <briefcase.platforms.linux.system.LinuxSystemDevCommand object at 0x7c303f5a30>     │                                                                    │
+│ │           test_mode = False                                                                               │                                                                    │
+│ │ update_requirements = False                                                                               │                                                                    │
+│ │                venv = <briefcase.integrations.virtual_environment.NoOpVenvContext object at 0x7c3071f650> │                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                    │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/dev.py:190 in run_dev_app                                                                        │
+│                                                                                                                                                                                  │
+│   187 │   │   │   )                                                                                                                                                              │
+│   188 │   │   │                                                                                                                                                                  │
+│   189 │   │   │   # Start streaming logs for the app.                                                                                                                            │
+│ ❱ 190 │   │   │   self._stream_app_logs(                                                                                                                                         │
+│   191 │   │   │   │   app,                                                                                                                                                       │
+│   192 │   │   │   │   popen=app_popen,                                                                                                                                           │
+│   193 │   │   │   │   clean_output=False,                                                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────────╮                │
+│ │         app = <com.jdp.DonyEvent v24.0 AppConfig>                                                                                                             │                │
+│ │   app_popen = <Popen: returncode: 1 args: ['/data/data/com.termux/files/usr/bin/python3.12...>                                                                │                │
+│ │     cmdline = ['/data/data/com.termux/files/usr/bin/python3.12', '-c', 'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("DonyEven'+40] │                │
+│ │         env = {'PYTHONPATH': '/storage/emulated/0/nova pasta/jdp_producoes_event/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'}      │                │
+│ │     env_key = 'PYTHONUTF8'                                                                                                                                    │                │
+│ │   env_value = '1'                                                                                                                                             │                │
+│ │ main_module = 'DonyEvent'                                                                                                                                     │                │
+│ │     options = {}                                                                                                                                              │                │
+│ │ passthrough = []                                                                                                                                              │                │
+│ │        self = <briefcase.platforms.linux.system.LinuxSystemDevCommand object at 0x7c303f5a30>                                                                 │                │
+│ │        venv = <briefcase.integrations.virtual_environment.NoOpVenvContext object at 0x7c3071f650>                                                             │                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                │
+│                                                                                                                                                                                  │
+│ /data/data/com.termux/files/usr/lib/python3.12/site-packages/briefcase/commands/run.py:206 in _stream_app_logs                                                                   │
+│                                                                                                                                                                                  │
+│   203 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   204 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   205 │   │   │   │   if popen.poll() != 0:                                                                                                                                      │
+│ ❱ 206 │   │   │   │   │   raise BriefcaseCommandError(f"Problem running app {app.app_name}.")                                                                                    │
+│   207 │   │                                                                                                                                                                      │
+│   208 │   │   except KeyboardInterrupt:                                                                                                                                          │
+│   209 │   │   │   pass  # Catch CTRL-C to exit normally                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                              │
+│ │          app = <com.jdp.DonyEvent v24.0 AppConfig>                                              │                                                                              │
+│ │ clean_filter = None                                                                             │                                                                              │
+│ │ clean_output = False                                                                            │                                                                              │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x7c302dbe90>                        │                                                                              │
+│ │   log_stream = False                                                                            │                                                                              │
+│ │        popen = <Popen: returncode: 1 args: ['/data/data/com.termux/files/usr/bin/python3.12...> │                                                                              │
+│ │         self = <briefcase.platforms.linux.system.LinuxSystemDevCommand object at 0x7c303f5a30>  │                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app DonyEvent.
