@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#000000">
     <title>JDP System v24.0</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/style.css">
+
     <style>
         /* --- CORE SYSTEM --- */
         :root { --neon: #00ffcc; --bg: #000; --panel-bg: #121212; --whatsapp: #25D366; --danger: #ff3333; --client-color: #ff00ff; --brand-color: #FFD700; }
@@ -520,9 +524,19 @@
             } else {
                 // Fim da lista do sistema (Loop)
                 carregarFaixa(0);
-            }
-        });
+            }        }); // Fim da lógica DJBOB
+    </script> <script src="cordova.js"></script>
+    <script src="js/index.js"></script> 
+    <script src="js/app.js"></script>
 
+    <script>
+        // Registro do Motor Offline (sw.js)
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(() => console.log("JDP: sw.js Ativo"))
+                .catch(err => console.log("JDP: Erro sw.js", err));
+        }
     </script>
 </body>
 </html>
+
